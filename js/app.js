@@ -27,18 +27,17 @@ $(document).ready(function() {
   });
 
  
-  $('.ryu').keydown, (function(e){
-    if (e.type == '88') { 
+  $('body').keydown(function(x) {
+    if(x.keyCode == 88) {
       $('.ryu-still').hide();
       $('.ryu-cool').show();
-        }
-  });
-
- $('.ryu').keydown, (function(e){
-    if (e.type == '88') { 
+    }
+  })
+  .on("keyup", function(x) {
+    if(x.keyCode == 88) {
       $('.ryu-cool').hide();
-      $('.ryu-still').show();
-        }
+      $('.ryu-still').show();     
+    }
   });
  
     
