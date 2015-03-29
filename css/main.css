@@ -67,6 +67,12 @@ body {
 	height: 425px;
 	width: 600px;
  }
+.how-to {
+	display: inline-block;
+	color: red;
+	font-family: comical;
+	width: 600px;
+
 
  .how-to p {
   width: 40%;
