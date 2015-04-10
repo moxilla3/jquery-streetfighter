@@ -30,16 +30,32 @@ $(document).ready(function() {
   $('body').keydown(function(x) {
     if(x.keyCode == 88) {
       $('.ryu-still').hide();
+      $('.ryu-ready').hide(); // added this to fix issue
       $('.ryu-cool').show();
     }
   })
   .on("keyup", function(x) {
     if(x.keyCode == 88) {
       $('.ryu-cool').hide();
+      $('.ryu-ready').hide(); // added this to fix
       $('.ryu-still').show();     
     }
   });
  
+// changes
+
+  .on("keyup", function(x) {
+    if(x.keyCode == 88) {
+      $('.ryu-cool').hide();
+      $('.ryu-ready').hide(); // added this
+      $('.ryu-still').show();     
+    }
+  });
+
+
+
+
+
     
 });
 
