@@ -71,21 +71,16 @@ body {
  }
 .how-to {
 	display: inline-block;
-	color: red;
-	font-family: comical;
-	width: 600px;
-
-
- .how-to p {
-  width: 40%;
-  color: black;
-  font-size: 21px;
-  line-height: 42px;
+  color: red;
+  font-family: comical;
+  width: 300px;
+  position: absolute;
+  top: 167px;
+  left: 50px;
 }
 
-.how-to p + p {
-	margin-left: 275;
-}
+
+ 
 
 /** temp to position hadouken 
 * {
