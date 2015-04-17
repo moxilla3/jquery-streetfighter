@@ -42,15 +42,7 @@ $(document).ready(function() {
     }
   });
  
-// changes
 
-  .on("keyup", function(x) {
-    if(x.keyCode == 88) {
-      $('.ryu-cool').hide();
-      $('.ryu-ready').hide();//added
-      $('.ryu-still').show();     
-    }
-  });
 
 
 
